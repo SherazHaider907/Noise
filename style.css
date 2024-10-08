@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+#top{
+    width: 100%;
+    height: 60%;
+    background-image: url(./images/laurenz-blickwedel-osVrR5xrZJU-unsplash.jpg);
+    background-size: cover;
+    background-position:center;
+}
+#overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.203);
+}
+#text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    padding: 0 10vw;
+    color: white;
+    /* height: 120px; */
+    /* background-color: red; */
+}
+#textright{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#textright i{
+    color: white;
+}
+#textright p{
+
+    font-size: 12px;
+    width: 40%;
+    /* justify-content: space-between; */
+}
+#text h1{
+    font-weight: 500;
+    font-size: 6vw;
+}
+#bottum {
+    width: 100%;
+    height: 40%;
+    background-color: purple;
+    display: flex;
+}
+#bone{
+    padding: 30px;
+    width: 25%;
+    height: 100%;
+    background-color:white;
+}
+#bone p{
+    margin-top: 20px;
+    font-size: 12px;
+}
+#btwo{
+    width: 25%;
+    height: 100%;
+    background-image: url(./images/arvid-skywalker-s3ykb9StUXc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bthree{
+    color: white;
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+}
+#bthreeTop{
+    padding: 20px;
+    width: 100%;
+    height: 50%;
+    background-color: orangered;
+}
+#bthreeTop p{
+    font-size: 12px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#bthreeBottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(./images/alexander-grey-QGQz-IBBl5w-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bfour{
+    padding: 30px;
+    width: 30%;
+    height: 100%;
+    background-color: #444;
+    color: white;
+}
+.notf{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+.notf p{
+    width: 80%;
+    font-size: 12px;
+}
